@@ -12,7 +12,7 @@ class Bike implements LightableInterface {
 
     public function switchOn()
     {
-        if($this->$currentSpeed > 10)
+        if($this->currentSpeed > 10)
         {
         return "true";
         }
